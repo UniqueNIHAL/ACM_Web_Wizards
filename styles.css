@@ -1,0 +1,48 @@
+/* Improper indentation and missing responsive design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    }
+    
+    header {
+    background-color: #0a74da;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin-right: 15px;
+    }
+    
+    section {
+    padding: 20px;
+    }
+    
+    footer {
+    background-color: #0a74da;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    img {
+    width: 100%;
+    /* No height specified, causing responsiveness issues */
+    }
+    
+    .container {
+    max-width: 1200px;
+    margin: auto;
+    /* Missing media queries for mobile responsiveness */
+    }
+    
+    /* No hover effects or link styling */
+    
