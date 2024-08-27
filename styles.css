@@ -1,4 +1,4 @@
-/* Improper indentation and missing responsive design */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -35,14 +35,14 @@ body {
     
     img {
     width: 100%;
-    /* No height specified, causing responsiveness issues */
+    
     }
     
     .container {
     max-width: 1200px;
     margin: auto;
-    /* Missing media queries for mobile responsiveness */
+  
     }
     
-    /* No hover effects or link styling */
+  
     
